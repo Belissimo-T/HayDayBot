@@ -2,7 +2,7 @@ import os
 
 
 if os.name == "nt":
-    from window_utils_stubs import *
+    from window_utils_windows import *
 elif os.name == "posix":
     from window_utils_linux import *
 else:
